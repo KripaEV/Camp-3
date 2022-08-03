@@ -1,0 +1,40 @@
+h1,h2{
+    color:purple
+}
+
+#boxpara{
+    color:lavender
+}
+
+p{
+    color:purple
+}
+
+#navimenu {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 200px;
+    height: 5000px;
+}
+
+#content {
+    margin-left: 200px;
+}
+
+.box {
+    margin-left:0%;
+    background-color: plum;
+    width: 90px;
+    border: 5px solid white;
+    padding: 15px;
+    margin: 15px;
+}
+
+.contentbox {
+    display: inline-block;
+    background-color:purple;
+    width: 900px;
+    padding: 10px;
+    margin-right: 20px;
+}
