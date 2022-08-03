@@ -1,0 +1,55 @@
+p {
+    color:blue
+}
+/*type selector*/
+h1 {
+    color:violet
+}
+h3 {
+    width: 120px;
+    height: 30px;
+    padding: 20px;
+    margin:30px;
+    border: 2px solid;
+    color:darkorchid
+}
+/*universal selector*/
+*{
+    color:green;
+}
+
+/*class selector*/
+.speclss {
+    color:chocolate
+}
+
+/*id selector*/
+#styling {
+    color:crimson
+}
+
+/*attribute selector*/
+input[type="button"]
+{
+    background-color: darkgoldenrod;
+    color:black;
+    width : 10%;
+}
+
+/*grouping selectors*/
+p,h1{
+    color:rgb(94, 31, 146) !important;/*important tells that this style has more priority*/
+}
+
+/*pseudo class selectors*/
+a:hover {
+    outline: 2px dotted plum;/*when hovering over the text, it forms a dotted box
+    around it*/
+}
+
+/*pseudo element selector*/
+p::first-letter {
+    color:blue;
+    font-weight:bold;
+    font: size 25px;
+}
