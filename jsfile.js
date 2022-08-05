@@ -129,7 +129,7 @@ student.address={
     door_no:10,
     district:"delhi",
 }
-alert(student.address.door_no)//nesting of obj*/
+alert(student.address.door_no)//nesting of obj
 
 //declaring empty obj
 var car={}
@@ -156,3 +156,54 @@ class person
 
 var varname=new person("abc",23)
 varname.greet()
+
+//JSON obj
+//creating json obj using stringify()
+var jsonstring=JSON.stringify({
+    name:"abc",
+    age:12,
+    addr:{
+        dist:"tvm",
+        location:"xyz"
+    }
+
+});
+console.log(jsonstring)
+
+//parse json string
+var parsejson=JSON.parse(jsonstring)
+alert(parsejson.name)
+alert(parsejson.age)
+alert(parsejson.addr.dist)
+
+
+//select html elt with javascript
+var p_elt=document.getElementsByTagName('p')
+//using id
+var h2_elt=document.getElementById('h2eltid')
+//using class 
+var h3_elt=document.getElementsByClassName('h3eltclass')
+
+//using css selectors
+var header_id=document.querySelector('#header')
+var allbtn=document.querySelectorAll('.btn')
+
+//fetching data from html elt
+//getting text content inside an elt
+alert(p_elt[0].textContent)
+alert(p_elt[0].textContent)
+
+//get value from html
+var txtname=document.getElementsByName('custname')
+alert(txtname[0].value)
+//getting inner html elt
+alert(header_id.innerHTML)*/
+
+var handleclick=function(event){
+    alert(document.getElementById('txtbox').value)
+    //assigning new value to textbox
+    document.getElementById('txtbox').value="new value"
+}
+//
+var bttn=document.getElementById('btn1')
+bttn.addEventListener('click',handleclick)  //dynamically adding event
