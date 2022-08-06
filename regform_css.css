@@ -1,8 +1,14 @@
-.formtext{
+#formtext{
     color:grey
 }
 
 p{
     color:red;
     font-size:x-small;
+}
+
+.space{
+    margin-top: -20px;
+    visibility: hidden;
+    color:red;
 }
