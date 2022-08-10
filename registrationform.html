@@ -9,31 +9,30 @@
     <h1><b>Registration form</b></h1>
     <form>
         <label for="fname">Full Name</label><br>
-        <input type="text" name="fname" value="Full Name" class="formtext">
+        <input type="text" name="fname" placeholder="Full Name" id="formtext">
         <br>
-        <p>Enter full name.</p>
+        <p class="space">Enter full name.</p>
         <br>
         <label for="email">Email address</label><br>
-        <input type="text" name="email" value="Email address" class="formtext">
+        <input type="text" name="email" placeholder="Email address" id="formtext">
         <br>
-        <p>Enter your email address.</p>
+        <p class="space">Enter your email address.</p>
         <br>
         <label for="phone">Phone (enter only 10 digit number)</label><br>
-        <input type="text" name="phone" value="Phone number" class="formtext">
+        <input type="text" name="phone" placeholder="Phone number" id="formtext">
         <br>
-        <p>Enter a phone number.</p>
+        <p class="space">Enter a phone number.</p>
         <br>
         <label for="pswrd">Password</label><br>
-        <input type="text" name="pswrd" value="Password" class="formtext">
+        <input type="text" name="pswrd" placeholder="Password" id="formtext">
         <br>
-        <p>Enter Password.</p>
+        <p class="space">Enter Password.</p>
         <br>
         <label for="confirmpswd">Confirm Password</label><br>
-        <input type="text" name="confirmpswd" value="Confirm Password" class="formtext">
+        <input type="text" name="confirmpswd" placeholder="Confirm Password" id="formtext">
         <br>
-        <p>Enter Password confirmation.</p>
+        <p class="space">Enter Password confirmation.</p>
         <br>
-        <input type="submit" value="Register">
+        <input type="submit" value="Register" onclick="formValidation()">
     </form>
 </body>
-</html>
