@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>CGI Assignment Form</title>
+    </head>
+    <body>
+        <form enctype="multipart/form-data" action="cgi_assignment.py" method="post">
+            <h1>My feedback form</h1>
+            <ul>
+                <li>Name: <input type="text" name="name"><br><br></li>
+                <li>Email: <input type="text" name="email"><br><br></li>
+                <li>Password: <input type="password" name="pswd"><br><br></li>
+                <li>Please check all the emotions that apply to you:<br></li>
+                <ul>
+                    <li>Angry:<input type="checkbox" name="emotion" value="angry"><br></li>
+                    <li>Sad:<input type="checkbox" name="emotion" value="sad"><br></li>
+                    <li>Happy:<input type="checkbox" name="emotion" value="happy"><br></li>
+                    <li>Ambivalent:<input type="checkbox" name="emotion" value="ambivalent"><br></li>
+                </ul>
+                <li>How satisfied were you with our service?</li>
+                <ul>
+                    <li>Very satisfied:<input type="radio" name="service" value="Very Satisfied"><br></li>
+                    <li>Satisfied:<input type="radio" name="service" value="Satisfied"><br></li>
+                    <li>Didn't care:<input type="radio" name="service" value="Don't care"><br></li>
+                    <li>Dissatisfied:<input type="radio" name="service" value="Dissatisfied"><br></li>
+                    <li>Very dissatisfied:<input type="radio" name="service" value="Very dissatisfied"><br></li>
+                </ul>
+                <li>Further comments: <br><br><textarea name="comments" id="" cols="30" rows="6" placeholder="Enter comments"></textarea><br></li>
+                <li>Bio Photo:<input type="file" name="biopic"></li>
+            </ul>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
