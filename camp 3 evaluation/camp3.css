@@ -1,0 +1,18 @@
+i.icon-blue{
+    color:blue;
+}
+
+h3{
+    color:blue;
+}
+
+h3, p{
+    padding:20px;
+    margin-left: 150px;
+}
+
+.starimg{
+    margin-left: 170px;
+    width:100px;
+    height:90px;
+}
